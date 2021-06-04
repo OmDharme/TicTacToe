@@ -35,6 +35,7 @@ public class Main {
                 mark = (mark==mark1) ? mark2 : mark1;
             }else{
                 System.out.println("Player " + player + "wins");
+                break;
             }
 
             if(moves==9){
